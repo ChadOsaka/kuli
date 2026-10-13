@@ -14,24 +14,18 @@ int main() {
         case 1:
             printf("Masukkan alas segitiga: ");
             scanf("%f", &alas);
-
             printf("Masukkan tinggi segitiga: ");
             scanf("%f", &tinggi);
-
             luas = 0.5 * alas * tinggi;
-
             printf("Luas Segitiga = %.2f\n", luas);
             break;
 
         case 2:
             printf("Masukkan panjang persegi panjang: ");
             scanf("%f", &panjang);
-
             printf("Masukkan lebar persegi panjang: ");
             scanf("%f", &lebar);
-
             luas = panjang * lebar;
-
             printf("Luas Persegi Panjang = %.2f\n", luas);
             break;
 
